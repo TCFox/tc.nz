@@ -30,3 +30,42 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+assets:
+  # compress:
+    # css: default
+    # js: default
+
+  # autowrite: true
+  # cache: false | directory | default: .asset-cache
+  # cache_type: memory | filesystem | default: filesystem
+  cdn: https://site-assets.tc.nz
+  skip_baseurl_with_cdn: true
+  skip_prefix_with_cdn: true
+  prefix: "/assets"
+  # digest: true
+
+  #
+
+  assets:
+    - "*.png"
+    - "bundle.css"
+
+  #
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - _assets/fonts
+    - _assets/img
+    - _assets/js
+
+  #
+
+  features:
+  #  liquid: true | false | default: false
+    integrity: true
+  #  automatic_img_size: true | false | n(fixnum): 2,4,6,8 | default: true
+  #  automatic_img_alt : true | false | default: true
