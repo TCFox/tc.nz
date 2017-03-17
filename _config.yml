@@ -20,7 +20,7 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tc.nz" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tcfoxtaur
-github_username:  tcfox
+github_username: tcfox
 
 # Build settings
 markdown: kramdown
