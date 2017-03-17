@@ -3,6 +3,7 @@
 
 ### Jekyll ###
 _site/
+.asset-cache/
 .sass-cache/
 .jekyll-metadata
 
@@ -154,6 +155,7 @@ build-iPhoneSimulator/
 .rvmrc
 
 ### VisualStudioCode ###
+.vs/*
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
