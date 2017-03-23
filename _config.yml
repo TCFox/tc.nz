@@ -28,6 +28,8 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-assets
+include:
+  - .well-known
 exclude:
   - Gemfile
   - Gemfile.lock
