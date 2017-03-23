@@ -31,6 +31,8 @@ gems:
 include:
   - .well-known
 exclude:
+  - deploy.cmd
+  - getruby.cmd
   - Gemfile
   - Gemfile.lock
 
