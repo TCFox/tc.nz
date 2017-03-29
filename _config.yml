@@ -32,6 +32,13 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
+defaults:
+  -
+    scope:
+      path: "" # all files in the project
+    values:
+      layout: "default"
+
 assets:
   cache_type: filesystem
   cdn: https://site-assets.tc.nz
