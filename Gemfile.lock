@@ -10,6 +10,8 @@ GEM
     fastimage (2.1.0)
     ffi (1.9.18)
     ffi (1.9.18-x64-mingw32)
+    font-awesome-sass (4.7.0)
+      sass (>= 3.2)
     forwardable-extended (2.6.0)
     jekyll (3.4.2)
       addressable (~> 2.4)
@@ -69,6 +71,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  font-awesome-sass (~> 4.7.0)
   jekyll (= 3.4.2)
   jekyll-assets (~> 2.2)
   jekyll-feed (~> 0.6)
@@ -78,7 +81,7 @@ DEPENDENCIES
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.3.3p222
 
 BUNDLED WITH
    1.14.6
