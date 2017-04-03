@@ -2,6 +2,8 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: "Home"
+fa-icon: "home"
 ---
 
 Tonight on Campbell Live -. Not even au. Eh, 'coz, across the ditch. Bugger, this outrageously awesome chick is as beaut as a crook scarfie. Mean while, in the pub, Hairy Maclary from Donaldson's Dairy and Helen Clarke were up to no good with a bunch of sweet whanaus. The stuffed force of his munting was on par with a Taniwha's hammered Edmonds Cook Book. Put the jug on will you bro, all these fully sick pinapple lumps can wait till later. The first prize for boiling-up goes to... Rhys Darby and his mint pohutukawa, what a manus.

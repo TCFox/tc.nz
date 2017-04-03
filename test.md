@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Test Page
+fa-icon: cog
 permalink: /test/
 ---
 
