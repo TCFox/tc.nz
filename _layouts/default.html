@@ -20,27 +20,27 @@
 </head>
 
 <body>
-  <div class="col-2 nav-sidebar">
-    <header style="text-align:center">
-      {% img logo width:100% height:auto class:nav-sidebar-logo %}
-      <h2 style="color: white">{{ site.title }}</h2>
-    </header>
-    <nav>
-      <ul class="nav flex-column">
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <a class="navbar-brand" href="/">{% img logo width:50px height:50px class:nav-sidebar-logo %} {{ site.title }}</a>
+    
+    <div class="collapse navbar-collapse" id="navToggle">
+      <div class="navbar-nav ml-auto">
         {% for my_page in site.pages %}
           {% if my_page.title %}
-            <li class="nav-item">
-              <a href="{{ my_page.url | relative_url }}" class="nav-link active"><i class="fa fa-{{ my_page.fa-icon | default: "file-text" }}" aria-hidden="true"></i> {{ my_page.title | escape }} </a>
-            </li>
+            <a href="{{ my_page.url | relative_url }}" class="nav-item nav-link"><i class="fa fa-{{ my_page.fa-icon | default: "file-text" }}" aria-hidden="true"></i> {{ my_page.title | escape }} </a>
           {% endif %}
         {% endfor %}
-      </ul>
-    </nav>
-  </div>
-  <div class="container-fluid nav-extend">
-    <div class="row no-gutters">
-      
-      <div class="offset-2 col">
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div>
         {{ content }}
       </div>
     </div>
