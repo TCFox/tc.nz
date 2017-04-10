@@ -1,3 +1,3 @@
 //= require vendor/jquery
-//= require vendor/bootstrap
+//= require bootstrap-sprockets
 //= require site
