@@ -53,6 +53,11 @@ assets:
   assets:
     - "*.png"
     - "bundle.css"
+    - "*.woff"
+    - "*.woff2"
+    - "*.ttf"
+    - "*.svg"
+    - "*.eot"
 
   sources:
     - _assets/css
