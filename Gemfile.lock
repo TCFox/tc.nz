@@ -14,7 +14,6 @@ GEM
     extras (0.1.0)
       forwardable-extended (~> 2.5)
     fastimage (2.1.0)
-    ffi (1.9.18)
     ffi (1.9.18-x64-mingw32)
     font-awesome-sass (4.7.0)
       sass (>= 3.2)
@@ -73,7 +72,6 @@ GEM
       tzinfo (>= 1.0.0)
 
 PLATFORMS
-  ruby
   x64-mingw32
 
 DEPENDENCIES
@@ -82,7 +80,7 @@ DEPENDENCIES
   jekyll (= 3.4.2)
   jekyll-assets (~> 2.2)
   jekyll-feed (~> 0.6)
-  jekyll-sitemap (~> 1.0)
+  jekyll-sitemap (= 1.0.0)
   jekyll_version_plugin (~> 2.0)
   mini_magick (~> 4.6.1)
   tzinfo-data
