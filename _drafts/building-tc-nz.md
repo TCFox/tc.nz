@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Building tc.nz"
-date:   2017-04-16 15:41:06 +1200
-categories: jekyll azure web-development
+# date:   2017-04-16 15:41:06 +1200
+tags: jekyll azure web-development
 excerpt_separator: "<!--more-->"
 ---
 
