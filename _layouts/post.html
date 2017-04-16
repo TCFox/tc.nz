@@ -15,7 +15,7 @@
       {% assign date_format = site.date_format | default: "%b %-d, %Y" %}
       <div class="col-md-6 col-sm-12 text-md-right"><i>Posted: {{ page.date | date: date_format }}</i><br/>
         {% for tag in page.tags %}
-        <button type="button" class="btn btn-secondary btn-sm">{{ tag }}</button> {% endfor %}
+        <a class="btn btn-secondary btn-sm" href="{{ site.url }}/tag/{{ tag }}" role="button">{{ tag }}</a>{% endfor %}
       </div>
     </div>
     <hr/>

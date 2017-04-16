@@ -18,6 +18,7 @@ group :jekyll_plugins do
    gem "jekyll_version_plugin", "~> 2.0"
    gem "jekyll-assets", "~> 2.2"
    gem "jekyll-seo-tag", "~> 2.2"
+   gem "jekyll-archives", "~> 2.1.1"
    gem "mini_magick", "~> 4.6.1"
    gem "font-awesome-sass", "~> 4.7.0"
    # gem 'bootstrap', '~> 4.0.0.alpha6'

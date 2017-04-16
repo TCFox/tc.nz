@@ -23,6 +23,8 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
+    jekyll-archives (2.1.1)
+      jekyll (>= 2.4)
     jekyll-assets (2.2.8)
       extras (~> 0.1)
       fastimage (~> 2.0, >= 1.8)
@@ -73,6 +75,7 @@ PLATFORMS
 DEPENDENCIES
   font-awesome-sass (~> 4.7.0)
   jekyll (= 3.4.3)
+  jekyll-archives (~> 2.1.1)
   jekyll-assets (~> 2.2)
   jekyll-feed (~> 0.6)
   jekyll-seo-tag (~> 2.2)
