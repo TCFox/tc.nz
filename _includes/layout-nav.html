@@ -1,0 +1,19 @@
+<nav class="navbar navbar-toggleable-md sticky-top navbar-inverse bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <a class="navbar-brand" href="/">{% img logo width:50px height:50px class:nav-sidebar-logo %} {{ site.title }}</a>
+    
+    <div class="collapse navbar-collapse" id="navToggle">
+      <div class="navbar-nav ml-auto">
+        {% assign menu_pages = site.pages | where:"menu_display",true %}
+        {% for my_page in menu_pages %}
+          {% if my_page.title %}
+            <a href="{{ my_page.url | relative_url }}" class="nav-item nav-link"><i class="fa fa-{{ my_page.fa-icon | default: "file-text" }}" aria-hidden="true"></i> {{ my_page.title | escape }} </a>
+          {% endif %}
+        {% endfor %}
+        <a href="{{ "/feed.xml" | relative_url }}" class="nav-item nav-link"><i class="fa fa-feed" aria-hidden="true"></i> RSS Feed </a>
+      </div>
+    </div>
+  </nav>
