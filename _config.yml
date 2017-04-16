@@ -18,8 +18,19 @@ email: Coming soon!
 description: This site is still in progress, sorry about the mess!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tc.nz" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tcfoxtaur
-github_username: tcfox
+author: tcfoxtaur
+twitter:
+  username: tcfoxtaur
+logo: https://site-assets.tc.nz/logo-e6d3f66e466924800195eec04771874fedaad8bcc7a35cb7cecd6077d79496ff.png
+social:
+  name: TC Foxtair
+  links:
+    - https://twitter.com/TCFoxtaur
+    - https://github.com/TCFox
+    - https://keybase.io/TCFox
+webmaster_verifications:
+  google: 9K1topiSz1CV4ER6E5QZKSFpU3NXnB2-tAEcpyXUHUA
+  bing: 7BDF6AFFDE02513BEB27C54250C203FF
 
 # Build settings
 encoding: UTF-8
@@ -28,6 +39,7 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-assets
+  - jekyll-seo-tag
   - jekyll-sitemap
 include:
   - .well-known
@@ -44,6 +56,7 @@ defaults:
     values:
       layout: "default"
       menu_display: true  # TODO: Apply this only to pages, not to posts etc
+      lang: "en-NZ"
 
 assets:
   cache_type: filesystem
