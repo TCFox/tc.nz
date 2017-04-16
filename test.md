@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Test Page
 fa-icon: cog
 permalink: /test/
