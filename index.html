@@ -31,13 +31,11 @@ fa-icon: "home"
 </div>
 
 <h2>Recent Posts</h2>
-<ul class="post-list">
-    {% for post in site.posts %}
-    <li>
-        <h3>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h3>
-        <p>Posted <span class="post-meta">{{ post.date | date: date_format }}</span></p>
-    </li>
-    {% endfor %}
-</ul>
+{% for post in site.posts %}
+<h3>
+    <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+</h3>
+<p>
+    <i>Posted <span class="post-meta">{{ post.date | date: date_format }}</span></i><br/> {{ post.excerpt }}
+</p>
+<hr/> {% endfor %}
