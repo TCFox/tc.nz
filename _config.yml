@@ -42,6 +42,7 @@ defaults:
       path: "" # all files in the project
     values:
       layout: "default"
+      menu_display: true  # TODO: Apply this only to pages, not to posts etc
 
 assets:
   cache_type: filesystem

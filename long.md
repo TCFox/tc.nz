@@ -1,6 +1,7 @@
 ---
 title: "Really Long Post"
 fa-icon: "list"
+menu_display: false
 ---
 
 # {{ page.title }}
