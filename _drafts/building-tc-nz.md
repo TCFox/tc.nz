@@ -14,4 +14,84 @@ So, what better way to kick off this (hopefully more stable!) iteration of my ne
 
 <!--more-->
 
-More content after the fold
+## What I wanted
+
+* Easy authoring
+* Automatic publishing
+* Minimal sysadmining required
+* No server-side dynamic content
+* Flexibility to add as much weird and wonderful security features to the site as I like
+
+## The development environment
+
+* GitHub
+* Visual Studio Code
+* Ruby on Windows (ugh)
+* Jekyll
+* GitKraken
+
+## Hosting
+
+* Azure App Service
+* Azure DNS
+* Azure CDN
+
+## Publishing
+
+* Kudu + GitHub
+* Site version header
+
+## Site features
+
+### Security
+
+* TLS + Let's Encrypt
+* HTTP -> HTTPS redirection
+* HSTS + Preloading
+* CSP
+* Expect-CT
+* X-Frame-Options
+* X-Xss-Protection
+* X-Content-Type
+* Referrer-Policy
+* CORS
+* Keybase Proof
+* Commit signing
+* Sub-resource Integrity
+* Manual data signing (matrix.json)
+* bundle-audit (in progress)
+
+### Publishing
+
+* Asset Pipeline + CDN support
+    * SCSS/JS bundling
+    * Image support
+    * Large assets (video/audio/files/huge images) kept out of repo
+* Writing posts + drafts
+* ATOM (RSS) feeds
+* SEO (in progress)
+* HEAD meta tags
+* Sitemap
+
+### Theming
+
+* Bootstrap
+* Font Awesome
+* Dynamic nav menu
+* Recent posts
+
+### Fun easter eggs
+
+* X-Powered-By
+* Kiwi Ipsum test page
+
+### Other
+
+* Error page handling
+* Publishing matrix keys
+
+## Issues I encountered
+
+* Bootstrap Ruby Gem + Windows (encoding)
+
+
