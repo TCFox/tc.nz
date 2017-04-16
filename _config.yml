@@ -82,5 +82,5 @@ assets:
     - _assets/js
 
   features:
-    liquid: true # default: false
+    liquid: false
     integrity: true
