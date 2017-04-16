@@ -28,6 +28,7 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-assets
+  - jekyll-sitemap
 include:
   - .well-known
 exclude:
