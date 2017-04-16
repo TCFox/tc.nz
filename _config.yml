@@ -44,6 +44,7 @@ gems:
   - jekyll-assets
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-archives
 include:
   - .well-known
 exclude:
