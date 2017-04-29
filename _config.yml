@@ -43,8 +43,8 @@ gems:
   - jekyll-feed
   - jekyll-assets
   - jekyll-seo-tag
-  - jekyll-sitemap
   - jekyll-archives
+  - jekyll-sitemap
 include:
   - .well-known
 exclude:
