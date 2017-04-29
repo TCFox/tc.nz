@@ -4,6 +4,8 @@ title: Test Page
 fa-icon: cog
 permalink: /test/
 menu_display: false
+sitemap: false
+
 ---
 
 This is a test page. Wheeee

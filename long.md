@@ -2,6 +2,7 @@
 title: "Really Long Post"
 fa-icon: "list"
 menu_display: false
+sitemap: false
 ---
 
 # {{ page.title }}
