@@ -1,0 +1,14 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="{% asset_path mstile-70x70 %}"/>
+            <square150x150logo src="{% asset_path mstile-150x150 %}"/>
+            <square310x310logo src="{% asset_path mstile-310x310 %}"/>
+            <TileColor>#da532c</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
