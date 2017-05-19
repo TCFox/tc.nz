@@ -8,3 +8,7 @@
 {% for device in site.data.matrix[account_name] %}| {{ device.label }} | `{{ device.id }}` | `{{ device.key }}` |
 {% endfor %}
 {% endfor %}
+
+---
+
+[\[source\]](https://github.com/{{ site.github.username }}/{{ site.github.jekyllrepo }}/blob/master/_data/{{ include.data }}.json) \| [\[sig\]](https://github.com/{{ site.github.username }}/{{ site.github.jekyllrepo }}/blob/master/_data/{{ include.data }}.json.asc)
