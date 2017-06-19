@@ -10,4 +10,4 @@ phases:
       - echo "******** Building Jekyll site ********"
       - bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://tc.nz
+      - aws s3 sync _site/ s3://tc.nz --delete
