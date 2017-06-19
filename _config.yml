@@ -51,6 +51,7 @@ gems:
 include:
   - .well-known
 exclude:
+  - buildspec.yml
   - deploy.cmd
   - getruby.cmd
   - Gemfile
