@@ -1,13 +1,26 @@
-version: 0.1
+version: 0.2
+
+env:
+  variables:
+    JEKYLL_ENV: "production"
    
 phases:
   install:
     commands:
       - gem install bundler
+  pre_build:
+    commands:
       - bundle install
   build:
     commands:
-      - echo "******** Building Jekyll site ********"
       - bundle exec jekyll build
-      - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://tc.nz --delete
+  post_build:
+    commands:
+      - aws s3 sync --delete --exclude assets/* _site/ "s3://tc.nz"
+      - aws s3 sync --delete --cache-control "max-age=31536000" _site/assets "s3://tc.nz/assets"
+
+artifacts:
+  files: 
+    - '**/*'
+  base-directory: '_site*'
+  discard-paths: yes
