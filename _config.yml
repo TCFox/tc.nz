@@ -67,9 +67,9 @@ defaults:
 
 assets:
   cache_type: filesystem
-  cdn: https://site-assets.tc.nz
-  skip_baseurl_with_cdn: true
-  skip_prefix_with_cdn: true
+  # cdn: https://site-assets.tc.nz
+  # skip_baseurl_with_cdn: true
+  # skip_prefix_with_cdn: true
   prefix: "/assets"
   digest: true
 
