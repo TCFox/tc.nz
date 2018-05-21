@@ -35,9 +35,6 @@ webmaster_verifications:
   google: 9K1topiSz1CV4ER6E5QZKSFpU3NXnB2-tAEcpyXUHUA
   bing: 7BDF6AFFDE02513BEB27C54250C203FF
 
-analytics:
-  app_insights: 39f046d7-7aee-40d3-97e0-c42a17e287cc
-
 # Build settings
 encoding: UTF-8
 markdown: kramdown
