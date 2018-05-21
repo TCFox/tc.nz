@@ -1,0 +1,32 @@
+---
+layout: null
+title: Keybase Proof
+menu_display: true
+fa-icon: keybase
+permalink: /.well-known/keybase.txt
+---
+{% for account in site.data.keybase %}{% assign account_name = account[0] %}==================================================================
+https://keybase.io/{{ account_name }}
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of {{ site.url }}
+  * I am {{ account_name }} (https://keybase.io/{{ account_name }}) on keybase.
+  * I have a public key {{ site.data.keybase[account_name].public_key }}
+
+To do so, I am signing this object:
+
+{{ site.data.keybase[account_name]["proof_object"] | jsonify }}
+
+which yields the signature:
+
+{{ site.data.keybase[account_name].proof_signature }}
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/{{ account_name }}
+
+==================================================================
+{% endfor %}
