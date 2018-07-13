@@ -10,11 +10,11 @@
 <meta name="geo.placename" content="Wellington"/>
 <meta name="version" content="{% project_version commit short %}-{{ jekyll.environment }}"/>
 
-<link rel="apple-touch-icon" sizes="180x180" href="{% asset_path apple-touch-icon %}"/>
-<link rel="icon" type="image/png" sizes="32x32" href="{% asset_path favicon-32x32 %}"/>
-<link rel="icon" type="image/png" sizes="16x16" href="{% asset_path favicon-16x16 %}"/>
+<link rel="apple-touch-icon" sizes="180x180" href="{% asset apple-touch-icon.png @path %}"/>
+<link rel="icon" type="image/png" sizes="32x32" href="{% asset favicon-32x32.png @path %}"/>
+<link rel="icon" type="image/png" sizes="16x16" href="{% asset favicon-16x16.png @path %}"/>
 <link rel="manifest" href="/manifest.json"/>
-<link rel="mask-icon" href="{% asset_path safari-pinned-tab %}" color="#5bbad5"/>
+<link rel="mask-icon" href="{% asset safari-pinned-tab.svg @path %}" color="#5bbad5"/>
 <link rel="shortcut icon" href="/favicon.ico"/>
 <meta name="apple-mobile-web-app-title" content="tc.nz"/>
 <meta name="application-name" content="tc.nz"/>
@@ -22,7 +22,7 @@
 <meta name="theme-color" content="#ffffff"/>
 
 <link rel="alternate" href="{{ absolute_url }}/feed.xml" type="application/atom+xml" title="RSS"/> 
-{% css main %}
+{% asset main.css %}
 
 <title>{{ page.title }} - {{ site.title }}</title>
 

@@ -39,9 +39,8 @@ webmaster_verifications:
 encoding: UTF-8
 markdown: kramdown
 # theme: minima
-gems:
+plugins:
   - jekyll-feed
-  - jekyll-assets
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap

@@ -5,12 +5,12 @@ layout: null
     "name": "tc.nz",
     "icons": [
         {
-            "src": "{% asset_path android-chrome-192x192 %}",
+            "src": "{% asset android-chrome-192x192.png @path %}",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "{% asset_path android-chrome-256x256 %}",
+            "src": "{% asset android-chrome-256x256.png @path %}",
             "sizes": "256x256",
             "type": "image/png"
         }

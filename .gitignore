@@ -3,7 +3,7 @@
 
 ### Jekyll ###
 _site/
-.asset-cache/
+.jekyll-cache/
 .sass-cache/
 .jekyll-metadata
 
