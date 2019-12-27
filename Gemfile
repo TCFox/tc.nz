@@ -9,18 +9,19 @@ ruby RUBY_VERSION
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.8.3"
+gem "jekyll", "3.8.5"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-feed", "~> 0.6"
-   gem "jekyll-sitemap", "~> 1.1.1"
+   gem "jekyll-feed", "~> 0.13"
+   gem "jekyll-sitemap", "~> 1.4"
    gem "jekyll_version_plugin", "~> 2.0"
    gem "jekyll-assets", "~> 3.0"
-   gem "jekyll-seo-tag", "~> 2.2"
+   gem "jekyll-seo-tag", "~> 2.6"
    gem "jekyll-archives", "~> 2.1.1"
-   gem "mini_magick", "~> 4.6.1"
+   gem "mini_magick", "~> 4.9.4"
    gem "font-awesome-sass", "~> 4.7.0"
+   gem "sprockets", "~> 3.7"  # Hack to resolve https://github.com/envygeeks/jekyll-assets/issues/622
    # gem 'bootstrap', '~> 4.0.0.alpha6'
    # gem "sprockets-es6", "~> 0.9.2"
 end
