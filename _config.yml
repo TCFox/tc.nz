@@ -105,3 +105,14 @@ jekyll-archives:
     day: '/:year/:month/:day/'
     tag: '/tag/:name/'
     category: '/category/:name/'
+
+prose:
+  rooturl: '_posts'
+  siteurl: 'https://tc.nz/'
+  media: '_assets/img'
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          label: "title"
