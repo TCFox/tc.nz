@@ -14,6 +14,10 @@
           {% endif %}
         {% endfor %}
         <a href="{{ "/feed.xml" | relative_url }}" class="nav-item nav-link"><i class="fa fa-feed" aria-hidden="true"></i> RSS Feed </a>
+        {% for account in site.data.keybase %}{% assign account_name = account[0] %}
+          <a href="https://keybase.io/{{ account_name }}/pgp_keys.asc" class="nav-item nav-link"><i class="fa fa-key" aria-hidden="true"></i> {{ account_name }}'s PGP keys</a>
+        {% endfor %}
+        <a href="{{ "/feed.xml" | relative_url }}" class="nav-item nav-link"><i class="fa fa-feed" aria-hidden="true"></i> RSS Feed </a>
       </div>
     </div>
   </nav>
