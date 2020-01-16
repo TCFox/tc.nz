@@ -116,3 +116,28 @@ prose:
         field:
           element: "text"
           label: "title"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "excerpt_separator"
+        field:
+          element: "hidden"
+          value: "<!--more-->"
+      - name: "date"
+        field:
+          element: "text"
+          label: "Date (YYYY-MM-DD HH:MM)"
+          value: CURRENT_DATETIME
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Azure"
+              value: "azure"
+            - name: "TLS"
+              value: "tls"
+            - name: "Jekyll"
+              value: "jekyll"
